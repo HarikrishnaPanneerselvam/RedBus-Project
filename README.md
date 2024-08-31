@@ -1,14 +1,6 @@
 # RedBus-Project
 Scrape the Redbus website using Selenium, store the data in a MySQL database, and display it using Streamlit.
 
-Install Dependencies:
-
-
-Use the following command to install the packages specified in requirements.txt:
-
-pip install -r requirements.txt
-
-Run The Code:
 
 Streamlit run project.py
 ![22](https://github.com/user-attachments/assets/f4417168-11f3-49d3-b843-0c4c81ef85bd)
