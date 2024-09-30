@@ -11,10 +11,12 @@ This project aims to extract relevant data from the RedBus website using Seleniu
 
 **Getting Started**
 **1.	Clone the Repository: **
-'''git clone https://your-github-repository-url.git'''
+
+git clone https://your-github-repository-url.git
 
 **2.	Install Dependencies: **
 pip install -r requirements.txt
+
 
 **3.	Set Up Database:** 
 Create a MySQL database and configure the connection details in config.py.
