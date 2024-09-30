@@ -1,12 +1,35 @@
 # RedBus-Project
-Scrape the Redbus website using Selenium, store the data in a MySQL database, and display it using Streamlit.
+A web scraping and data visualization application for RedBus.
 
+**Project Overview**
+This project aims to extract relevant data from the RedBus website using Selenium, store the extracted data in a MySQL database, and then present the data in a user-friendly interface using Streamlit.
 
-Streamlit run project.py
-![Annotation 2024-09-01 151410](https://github.com/user-attachments/assets/d47c89e3-f03f-4bc8-94bd-97ff0c0734c9)
-![Annotation 2024-09-01 151427](https://github.com/user-attachments/assets/5e714a24-68ff-41b1-9aa2-dfdac077a2c5)
-![Annotation 2024-09-01 151451](https://github.com/user-attachments/assets/e389950e-9f07-4dd0-af4e-194b6ed2a30d)
-![Annotation 2024-09-01 151512](https://github.com/user-attachments/assets/379a04c5-4418-4c89-bb4b-b334ca1c97cc)
-![Annotation 2024-09-01 151531](https://github.com/user-attachments/assets/f4e40e49-aca7-474d-a016-a9db55c037ef)
+**Key Features**
+**•	Data Extraction:** Scrapes bus information, including bus number, departure/arrival time, price, and availability, from the RedBus website.
+**•	Data Storage:** Stores the extracted data in a MySQL database for efficient retrieval and analysis.
+**•	Data Visualization:** Creates a Streamlit application to visualize the extracted data in an interactive and informative manner.
+
+**Getting Started**
+**1.	Clone the Repository: **
+git clone https://your-github-repository-url.git
+
+**2.	Install Dependencies: **
+pip install -r requirements.txt
+
+**3.	Set Up Database:** 
+Create a MySQL database and configure the connection details in config.py.
+
+**4.	Run the Application: **
+streamlit run app.py
+
+**Technologies Used**
+**•	Selenium:** For web scraping
+**•	MySQL:** For data storage
+**•	Streamlit:** For creating the user interface
+
+![redbus 1](https://github.com/user-attachments/assets/956643e0-69a3-4b7d-becf-4e49c9f47b1c)
+![redbus 2](https://github.com/user-attachments/assets/f6b6a15b-eecb-4169-80fc-ca645690dd38)
+![redbus 3](https://github.com/user-attachments/assets/b03c9125-def0-402c-8b94-1ca442516b7c)
+![redbus 4](https://github.com/user-attachments/assets/124a21f4-bf51-4dd3-bdb1-386e665bcbfc)
 
 
